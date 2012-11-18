@@ -1,0 +1,110 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : Serbian
+
+language.serbian=Srpski
+language.serbian_welcome=Dobrodošli u instalaciju
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=OK
+text_next=Dalje >
+text_install=Instaliraj
+text_finish=Kraj
+text_back=< Nazad
+text_yes=Da
+text_no=Ne
+text_about=O
+text_calibrating=Alati za Kalibraciju
+text_quit=Izlaz
+text_quit_msg=Da li ste sigurni da želite da izadjete iz instalacije?
+
+### Changelog Page
+changelog.title=Lista Promena
+
+### ROM Selection
+romtype.title=Izaberite ROM
+romtype.desc=Izaberite osnovu ROM-a
+romtype.install_cm=CM10
+romtype.install_cm_desc=Instaliraj CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Instaliraj Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Instaliraj AOKP
+romtype.exit=Izlaz
+romtype.exit_desc=Izlaz iz Instalera
+
+### Installation Type
+installtype.title=Instaliraj
+installtype.desc=Izaberite način instalacije
+installtype.default=Standardna
+installtype.default_desc=Standardna Instalacija
+installtype.minimal=Minimalna
+installtype.minimal_desc=Minimalna instalacija ROM-a
+installtype.custom=Po izboru
+installtype.custom_desc=Izaberite aplikacije za instalaciju
+
+### Kernel Selection
+kernel.title=Kernel
+kernel.desc=Izaberite kernel za instalaciju
+kernel.default=Standardni
+kernel.default_desc=Osnovni Kernel
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl Kernel
+kernel.mac=MAC
+kernel.mac_desc=MAC Kernel
+kernel.coolexe=Coolexe
+kernel.coolexe_desc=CoolExe Kernel
+
+### Customize Page
+custom.title=Izbor
+custom.desc=Izaberite aplikacije za instalaciju
+
+### Customization Options
+groups.default_apps=Standardne Aplikacije
+groups.extra_apps=Dodatne Aplikacije
+
+### App Names and Descriptions
+default_apps.apollo=Apollo Music Player
+default_apps.browser=Standardni CyanogenMod Browser
+default_apps.email=Standardni E-Mail Client
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Spreman za instalaciju
+ready.text=Pritisnite 'Instaliraj' da započnete instalaciju
+
+### Install Page
+install.title=Instalacija je u toku
+install.text=Molim vas sačekajte
+install.done=Instalacija je završena
+
+### Finished Page
+finish.title=Instalacija je završena
+finish.text=Instalacija je završena.
+finish.status=Status instalacije
+finish.reboot=Restartuj uredjaj
+
+### Special Strings - These are appended onto the ROM name
+install.installing=se instalira...
+
+

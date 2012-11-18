@@ -1,0 +1,108 @@
+### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : Română 
+
+language.romanian=Română 
+language.romanian_welcome=Bine ai venit
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=OK
+text_next=Continuă >
+text_install=Instalează acum
+text_finish=Gata
+text_back=< Inapoi
+text_yes=Da
+text_no=Nu
+text_about=Despre
+text_calibrating=Unelte de calibrare
+text_quit=Renunță la instalare
+text_quit_msg=Ești sigur(ă) că vrei să renunți la instalare?
+
+### Changelog Page
+changelog.title=Jurnalul modificărilor
+
+### ROM Selection
+romtype.title=Alegerea ROM-ului 
+romtype.desc=Selectează baza ROM-ului pentru instalare:
+romtype.install_cm=CM10
+romtype.install_cm_desc=Instalează CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Instalează Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Instalează AOKP
+romtype.exit=Închidere
+romtype.exit_desc=Închide instalarea
+
+### Installation Type
+installtype.title=Instalează 
+installtype.desc=Te rog alege metoda de instalare
+installtype.default=Implicit
+installtype.default_desc=Instalare implicită 
+installtype.minimal=Minimală
+installtype.minimal_desc=Instalare minimală 
+installtype.custom=Customizată
+installtype.custom_desc=Alege aplicațiile care vor fi instalate
+
+### Kernel Selection
+kernel.title=Kernel
+kernel.desc=Selectează kernel-ul pentru instalare
+kernel.default=Implicit
+kernel.default_desc=Vanilla Kernel
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl Kernel
+kernel.mac=MAC
+kernel.mac_desc=MAC Kernel
+kernel.coolexe=Coolexe
+kernel.coolexe_desc=CoolExe Kernel
+
+### Customize Page
+custom.title=Customizare
+custom.desc=Selectează aplicațile pentru instalare
+
+### Customization Options
+groups.default_apps=Aplicații implicite
+groups.extra_apps=Aplicații adiționale 
+
+### App Names and Descriptions
+default_apps.apollo=Apollo Music Player
+default_apps.browser=Implicit CyanogenMod Browser
+default_apps.email=Clientul de E-Mail implicit
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Gata de Instalare
+ready.text=Apasă 'Instalează acum' pentru a începe instalarea
+
+### Install Page
+install.title=Instalare... 
+install.text=Te rog așteaptă... 
+install.done=Instalarea s-a încheiat 
+
+### Finished Page
+finish.title=Instalare încheiată 
+finish.text=Instalarea s-a încheiat cu succes.
+finish.status=Status-ul instalării 
+finish.reboot=Reporneşte telefonul 
+
+### Special Strings - These are appended onto the ROM name
+install.installing=se instalează...

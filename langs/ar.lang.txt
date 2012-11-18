@@ -1,0 +1,111 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : Arabic
+
+language.arabic= العربية
+language.arabic_welcome= أهلاً بك إلى المثبت
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=حسناً
+text_next=> التالي
+text_install=ثبت الآن
+text_finish=إنتهاء
+text_back=< العودة
+text_yes=نعم
+text_no=كلا
+text_about=عن
+text_calibrating=تحديد الأدوات
+text_quit=إلغاء التثبيت
+text_quit_msg=هل أنت متأكد من إلغاء التثبيت ؟
+
+### Changelog Page
+changelog.title=تغيرات لاصدار 
+
+### ROM Selection
+romtype.title=إختر روم للتثبيت
+romtype.desc=إختر قاعدة روم للتثبيت
+romtype.install_cm=CM10
+romtype.install_cm_desc=CyanogenMod 10 تثبيت
+romtype.install_pa=PA
+romtype.install_pa_desc=Paranoid Android تثبيت
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=AOKP تثبيت
+romtype.exit=إلغاء
+romtype.exit_desc= إلغاء التثبيت
+
+### Installation Type
+installtype.title= ثبت
+installtype.desc= أرجوك إختر طريقة التثبيت
+installtype.default= إفتراضي
+installtype.default_desc= تثبيت إفتراضي
+installtype.minimal= أصغر
+installtype.minimal_desc= أصغر روم لتثبيت 
+installtype.custom= إختيار شخصي
+installtype.custom_desc= إختر البرامج للتثبيت
+
+### Kernel Selection
+kernel.title= اختيار الكيرنل 
+kernel.desc= إختر كيرنل للتثبيت
+kernel.default= إفتراضي
+kernel.default_desc=Vanilla كيرنل
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl كيرنل
+kernel.mac=MAC
+kernel.mac_desc=MAC كيرنل
+kernel.coolexe=Coolexe
+kernel.coolexe_desc=CoolExe كيرنل
+
+### Customize Page
+custom.title= إختيار
+custom.desc= إختر البرامج للتثبيت
+
+### Customization Options
+groups.default_apps= برامج افتراضية
+groups.extra_apps= برامج إضافية
+
+### App Names and Descriptions
+default_apps.apollo=Apollo Music Player
+default_apps.browser=CyanogenMod Browser 'إفتراضي'
+default_apps.email=E-Mail Client 'إفتراضي'
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title= جاهز للتثبيت
+ready.text= إضغط 'ثبت الآنء' لبداية تثبيت
+
+### Install Page
+install.title=التثبيت الآن
+install.text=أرجو منك لإنتظار
+install.done=إنتهى التثبيت بنجاح
+
+### Finished Page
+finish.title= إنتهى التثبيت 
+finish.text=. إنتهى المثبت بنجاح
+finish.status= وضع المثبت
+finish.reboot=إعادة تشغيل الآن
+
+### Special Strings - These are appended onto the ROM name
+install.installing=... يجري الآن التثبيت 
+
+
+

@@ -1,0 +1,108 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : Czech
+
+language.czech=Čeština
+language.czech_welcome=Vítejte v instalátoru
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=OK
+text_next=Další >
+text_install=Instalovat
+text_finish=Dokončit
+text_back=< Zpět
+text_yes=Ano
+text_no=Ne
+text_about=O ROMce
+text_calibrating=Kalibrační nástroje
+text_quit=Ukončit instalaci
+text_quit_msg=Určitě si přejete ukončit instalaci?
+
+### Changelog Page
+changelog.title=Co je nového?
+
+### ROM Selection
+romtype.title=Vyberte ROM k instalaci
+romtype.desc=Vyberte ROM k instalaci
+romtype.install_cm=CM10
+romtype.install_cm_desc=Nainstalovat CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Nainstalovat Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Nainstalovat AOKP (Android Open Kang Project)
+romtype.exit=Ukončit
+romtype.exit_desc=Ukončit instalaci
+
+### Installation Type
+installtype.title=Instalace
+installtype.desc=Vyberte typ instalace
+installtype.default=Standardní
+installtype.default_desc=Standardní instalace
+installtype.minimal=Minimální
+installtype.minimal_desc=Minimální instalace ROM
+installtype.custom=Vlastní
+installtype.custom_desc=Vyberte si aplikace, které se budou instalovat
+
+### Kernel Selection
+kernel.title=Kernel
+kernel.desc=Vyberte kernel k instalaci
+kernel.default=Standardní
+kernel.default_desc=Vanilla Kernel
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl Kernel
+kernel.mac=MAC
+kernel.mac_desc=MAC Kernel
+kernel.coolexe=Coolexe
+kernel.coolexe_desc=CoolExe Kernel
+
+### Customize Page
+custom.title=Vlastní
+custom.desc=Vyberte aplikace, které se nainstalují
+
+### Customization Options
+groups.default_apps=Standardní aplikace
+groups.extra_apps=Další aplikace
+
+### App Names and Descriptions
+default_apps.apollo=Apollo Music Player
+default_apps.browser=Standardní webový prohlížeč CyanogenMod
+default_apps.email=Standardní E-Mail klient
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Připraveno k instalaci
+ready.text=Pro pokračování v instalaci klepněte na 'Instalovat'
+
+### Install Page
+install.title=Instaluji
+install.text=Čekejte prosím
+install.done=Instalace byla dokončena
+
+### Finished Page
+finish.title=Instalace dokončena
+finish.text=Instalace byla dokončena.
+finish.status=Stav instalace
+finish.reboot=Restartovat zařízení
+
+### Special Strings - These are appended onto the ROM name
+install.installing=se nyní instaluje...

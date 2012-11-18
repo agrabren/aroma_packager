@@ -1,0 +1,20 @@
+﻿### LİSANS:
+#
+# CM10 Hakları Saklıdır (C) 2012 Kevin Bruckert
+#
+# Tüm hakları saklıdır (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+#Apache License'ın lisansı altındadır, versiyon 2.0 (the "License");
+# Bu dosyayı lisansla uyumlu olması şartıyla kullanabilirsiniz.
+# Burdaki websitesinden lisans hakkı elde edebilirsiniz
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Kanunlar gerektirmedikçe yada yazıda anlaşılmadığı müddetçe, lisans altında dağıtılan yazılım
+# Baz, temel yazılım olarak dağıtılır,
+# Hiçbir garanti veya koşul olmaksızın , örtülü veya açık.
+# İzinleri düzenleyen belirli bir dil için Lisans'a bakın ve
+# lisans altındaki sınırlamar için.
+#
+
+### DİL KAYNAK DOSYASI

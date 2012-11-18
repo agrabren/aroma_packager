@@ -1,0 +1,110 @@
+### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : Norsk
+
+language.norsk=Norsk
+language.norsk_welcome=Velkommen til installering
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=OK
+text_next=Neste >
+text_install=Installer nå
+text_finish=Slutt
+text_back=< Tilbake
+text_yes=Ja
+text_no=Nei
+text_about=Om
+text_calibrating=Kalibreringsverktøy
+text_quit=Avslutt installasjon
+text_quit_msg=Er du sikker på at du vil avslutte installasjonen?
+
+### Changelog Page
+changelog.title=Changelog
+
+### ROM Selection
+romtype.title=Velg ROM for installasjon
+romtype.desc=Velg ROM base for installasjon
+romtype.install_cm=CM10
+romtype.install_cm_desc=Installer CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Installer Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Installer AOKP
+romtype.exit=Avslutt
+romtype.exit_desc=Avslutt installasjon
+
+### Installation Type
+installtype.title=Installer
+installtype.desc=Velg installasjons type
+installtype.default=Normal
+installtype.default_desc=Normal installering
+installtype.minimal=Minimal
+installtype.minimal_desc=Minimal ROM installasjon
+installtype.custom=Tilpasset
+installtype.custom_desc=Tilpass installerte programmer
+
+### Kernel Selection
+kernel.title=Kernel
+kernel.desc=Velg hvilken kernel for installasjon
+kernel.default=Standard
+kernel.default_desc=Vanilla Kernel
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl Kernel
+kernel.mac=MAC
+kernel.mac_desc=MAC Kernel
+kernel.anryl=Coolexe
+kernel.anryl_desc=CoolExe Kernel
+
+### Customize Page
+custom.title=Tilpass
+custom.desc=Velg programmer for installasjon
+
+### Customization Options
+groups.default_apps=Standardprogrammer
+groups.extra_apps=Tilleggsprogrammer
+
+### App Names and Descriptions
+default_apps.apollo=Apollo Music Player
+default_apps.browser=Default CyanogenMod Browser
+default_apps.email=Default E-Mail Client
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Klar for installering
+ready.text=Trykk 'Installer nå' for å starte installeringen
+
+### Install Page
+install.title=Installerer
+install.text=Vennligst vent
+install.done=Installasjon fullført
+
+### Finished Page
+finish.title=Installasjon fullført
+finish.text=Installasjonen er fullført.
+finish.status=Installasjons status
+finish.reboot=Start enheten på nytt nå
+
+### Special Strings - These are appended onto the ROM name
+install.installing=blir nå installert...
+
+

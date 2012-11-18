@@ -1,0 +1,130 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+
+### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : Russian
+
+language.russian=Русский
+language.russian_welcome=Добро пожаловать в установщик
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=ОК
+text_next=Далее >
+text_install=Установить!
+text_finish=Завершить
+text_back=< Назад
+text_yes=Да
+text_no=Нет
+text_about=О программе
+text_calibrating=Инструменты калибровки
+text_quit=Покинуть установщик
+text_quit_msg=Вы действительно хотите поекинуть установщик?
+
+### Changelog Page
+changelog.title=Список изменений
+
+### ROM Selection
+romtype.title=Выберите прошивку для установки
+romtype.desc=Выберите базовую прошивку для установки
+romtype.install_cm=CM10
+romtype.install_cm_desc=Установить CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Установить Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Установить AOKP
+romtype.exit=Выход
+romtype.exit_desc=Выход из установщика
+
+### Installation Type
+installtype.title=Установка
+installtype.desc=Пожалуйста, выберите предпочитаемый способ установки компонентов прошивки
+installtype.default=По умолчанию
+installtype.default_desc=Установка компонентов по умолчанию
+installtype.minimal=Минимальный
+installtype.minimal_desc=Установка минимально необходимых компонентов
+installtype.custom=Пользовательские установки
+installtype.custom_desc=Выбор устанавливаемых компонентов
+
+### Kernel Selection
+kernel.title=Ядро прошивки
+kernel.desc=Выберите устанавливаемое ядро
+kernel.default=По умолчанию
+kernel.default_desc=Немодифицированное ("ванильное") ядро
+kernel.anryl=Anryl
+kernel.anryl_desc=Ядро "Anryl Kernel"
+kernel.mac=MAC
+kernel.mac_desc=Ядро "MAC Kernel"
+kernel.coolexe=Coolexe
+kernel.coolexe_desc=Ядро "CoolExe Kernel"
+
+### Customize Page
+custom.title=Дополнительные настройки
+custom.desc=Выберите дополнительные приложения, которые необходимо установить с прошивкой
+
+### Customization Options
+groups.default_apps=Приложения по умолчанию
+groups.extra_apps=Дополнительные приложения
+
+### App Names and Descriptions
+default_apps.apollo=Музыкальный проигрыватель Apollo
+default_apps.browser=Браузер CyanogenMod по умолчанию
+default_apps.email=Клиент E-mail по умолчанию
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Прошивка готова к установке
+ready.text=Нажмите 'Установить!' для начала установки
+
+### Install Page
+install.title=Устанавливается
+install.text=Пожалуйста, подождите
+install.done=Установка была завершена!
+
+### Finished Page
+finish.title=Окончание установки
+finish.text=Установка была завершена!
+finish.status=Результаты установки
+finish.reboot=Перезагрузить!
+
+### Special Strings - These are appended onto the ROM name
+install.installing=устанавливается...
+

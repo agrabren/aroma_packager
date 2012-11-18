@@ -1,0 +1,5 @@
+GooManager.apk
+Term.apk
+TitaniumBackup.apk
+TotalCommander.apk
+

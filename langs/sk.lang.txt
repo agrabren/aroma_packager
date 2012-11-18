@@ -1,0 +1,109 @@
+### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : Slovak
+
+language.slovak=Slovenský
+language.slovak_welcome=Vitajte v inštalátori
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=OK
+text_next=Ďalší >
+text_install=Nainštalovať
+text_finish=Dokončiť
+text_back=< Späť
+text_yes=Áno
+text_no=Nie
+text_about=Informácie
+text_calibrating=Nástroje na kalibráciu
+text_quit=Ukončiť inštaláciu
+text_quit_msg=Ste si istí, že chcete ukončiť inštaláciu?
+
+### Changelog Page
+changelog.title=Zmeny od poslednej verzie
+
+### ROM Selection
+romtype.title=Vyberte ROM pre inštaláciu
+romtype.desc=Vyberte základný balík inštalácie ROM
+romtype.install_cm=CM10
+romtype.install_cm_desc=Nainštalovať CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Nainštalovať Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Nainštalovať AOKP
+romtype.exit=Ukončiť
+romtype.exit_desc=Ukončiť inštaláciu
+
+### Installation Type
+installtype.title=Inštalovať
+installtype.desc=Prosím, vyberte spôsob inštalácie
+installtype.default=Predvolený
+installtype.default_desc=Predvolená inštalácia
+installtype.minimal=Minimálny
+installtype.minimal_desc=Inštalácia minimálnej ROM
+installtype.custom=Vlastný
+installtype.custom_desc=Prispôsobenie inštalovaných aplikácií
+
+### Kernel Selection
+kernel.title=Kernel
+kernel.desc=Vyberte Kernel pre inštaláciu
+kernel.default=Predvolený
+kernel.default_desc=Vanilla Kernel
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl Kernel
+kernel.mac=MAC
+kernel.mac_desc=MAC Kernel
+kernel.coolexe=Coolexe
+kernel.coolexe_desc=CoolExe Kernel
+
+### Customize Page
+custom.title=Prispôsobenie
+custom.desc=Vyberte aplikácie pre inštaláciu
+
+### Customization Options
+groups.default_apps=Predvolené aplikácie
+groups.extra_apps=Dodatočné aplikácie
+
+### App Names and Descriptions
+default_apps.apollo=Hudobný prehrávač Apollo
+default_apps.browser=Predvolený CyanogenMod prehliadač
+default_apps.email=Predvolený E-Mailový klient
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Všetko pripravené na inštaláciu
+ready.text=Stlačte 'Nainštalovať' pre začatie inštalácie
+
+### Install Page
+install.title=Inštaluje sa
+install.text=Prosím čakajte
+install.done=Inštalácia dokončená
+
+### Finished Page
+finish.title=Inštalácia kompletná
+finish.text=Inštalácia systému je kompletná.
+finish.status=Stav inštalácie
+finish.reboot=Reštartovať zariadenie
+
+### Special Strings - These are appended onto the ROM name
+install.installing=je práve inštalovaný...
+

@@ -1,0 +1,110 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#  Language  : Persian
+
+language.persian=فارسی
+language.persian_welcome=خوش آمدید
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=خب 
+text_next=پسین >
+text_install=حالا بریز
+text_finish=پایان 
+text_back=< پیشین
+text_yes=بله
+text_no=نه
+text_about=درباره
+text_calibrating=ابزار کالیبره سازی
+text_quit=خروج از نصب
+text_quit_msg=مطمئنید که می خواهید خارج شوید؟ 
+
+### Changelog Page
+changelog.title=تغییرات
+
+### ROM Selection
+romtype.title=رام را برای نصب انتخاب کنید
+romtype.desc=رام پایه را برای نصب انتخاب کنید
+romtype.install_cm=CM10
+romtype.install_cm_desc=سیانوژن مد ۱۰ را نصب کن
+romtype.install_pa=PA
+romtype.install_pa_desc=پارانوید آندروید را نصب کن
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=AOKP را نصب کن
+romtype.exit=بستن
+romtype.exit_desc=بستن نصب کننده
+
+### Installation Type
+installtype.title=نصب
+installtype.desc=لطفاً روش نصب خود را برگزینید
+installtype.default=پیش فرض
+installtype.default_desc=نصب پیش فرض
+installtype.minimal=کمینه
+installtype.minimal_desc=نصب رام کمینه
+installtype.custom=شخصی سازی
+installtype.custom_desc=شخصی سازی نرم افزارهای نصبی
+
+### Kernel Selection
+kernel.title=کرنل 
+kernel.desc=کرنل را برای نصب برگزینید
+kernel.default=پیش فرض
+kernel.default_desc=کرنل وانیلا
+kernel.anryl=آنریل
+kernel.anryl_desc=کرنل آنریل
+kernel.mac=م.آ.ک
+kernel.mac_desc=کرنل م.آ.ک
+kernel.anryl=کول اگزه
+kernel.anryl_desc=کرنل کول اگزه
+
+### Customize Page
+custom.title=شخصی سازی
+custom.desc=نرم افزارها را برای نصب انتخاب کنید
+
+### Customization Options
+groups.default_apps=نرم افزارهای پیش فرض
+groups.extra_apps=نرم افزارهای اضافه
+
+### App Names and Descriptions
+default_apps.apollo=پخش موزیک آپولو
+default_apps.browser=مرورگر پیش فرض سیانوژن مد
+default_apps.email=گیرنده ایمیل پیش فرض
+extra_apps.titanium=تیتانیوم بک آپ
+
+### Ready Page
+ready.title=آماده ی نصب
+ready.text=برای شروع نصب، دکمه ی "حالا بریز" را بزنید
+
+### Install Page
+install.title=در حال نصب
+install.text=صبر کنید
+install.done=نصب تمام شد
+
+### Finished Page
+finish.title=پایان نصب
+finish.text=روند نصب پایان یافت.
+finish.status=وضعیت نصب
+finish.reboot=راه اندازی دوباره
+
+### Special Strings - These are appended onto the ROM name
+install.installing=اکنون در حال نصب است...
+
+

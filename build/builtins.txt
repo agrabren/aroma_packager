@@ -1,0 +1,14 @@
+Apollo.apk
+Browser.apk
+Calculator.apk
+Calendar.apk
+Email.apk
+Exchange2.apk
+Gallery2.apk
+QuickSearchBox.apk
+SoundRecorder.apk
+SpareParts.apk
+Superuser.apk
+Torch.apk
+VideoEditor.apk
+

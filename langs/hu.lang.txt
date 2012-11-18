@@ -1,0 +1,108 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : Hungarian
+
+language.hungarian=Magyar
+language.hungarian_welcome=Üdvözli a telepitő
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=OK
+text_next=Következő >
+text_install=Telepités
+text_finish=Befejezés
+text_back=< Vissza
+text_yes=Igen
+text_no=Nem
+text_about=Névjegy
+text_calibrating=Kalibrácios eszközök
+text_quit=Kilépés a telepitőből
+text_quit_msg=Biztos hogy ki akar lépni a telepitőből?
+
+### Changelog Page
+changelog.title=Változások
+
+### ROM Selection
+romtype.title=Válassza ki a kivánt Rom-ot.
+romtype.desc=Válassza ki az alap Rom-ot.
+romtype.install_cm=CM10
+romtype.install_cm_desc=CyanogenMod 10 telepitése
+romtype.install_pa=PA
+romtype.install_pa_desc=Paranoid Android telepitése
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=AOKP telepitése
+romtype.exit=Kilépés
+romtype.exit_desc=Telepitő elhagyása
+
+### Installation Type
+installtype.title=Telepités
+installtype.desc=Kérem válasszon egy telepitési modot
+installtype.default=Alapértelmezett
+installtype.default_desc=Alapértelmezett telepités
+installtype.minimal=Minimális
+installtype.minimal_desc=Minimális ROM telepités
+installtype.custom=Testreszabott
+installtype.custom_desc=Telepítendő programok kiválasztása
+
+### Kernel Selection
+kernel.title=Kernel(mag)
+kernel.desc=Válasszon egy kernelt
+kernel.default=Alap
+kernel.default_desc=Vanilla Kernel
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl Kernel
+kernel.mac=MAC
+kernel.mac_desc=MAC Kernel
+kernel.anryl=Coolexe
+kernel.anryl_desc=CoolExe Kernel
+
+### Customize Page
+custom.title=Testreszabás
+custom.desc=Válassza ki a telepítendő programokat
+
+### Customization Options
+groups.default_apps=Alap programok
+groups.extra_apps=Kiegészítő programok
+
+### App Names and Descriptions
+default_apps.apollo=Apollo zenelejátszó
+default_apps.browser=Alap CyanogenMod böngésző
+default_apps.email=Alap E-Mail kliens
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Készen áll a telepítésre
+ready.text=A telepítés elkezdéséhez kattintson 'Telepités most' gombra
+
+### Install Page
+install.title=Telepités
+install.text=Kérem várjon
+install.done=A telepítés befejeződött
+
+### Finished Page
+finish.title=Telepités befejezve
+finish.text=A telepítés befejeződött.
+finish.status=Telepítés állapota
+finish.reboot=Ujrainditás most
+
+### Special Strings - These are appended onto the ROM name
+install.installing=telepítés folyamatban...

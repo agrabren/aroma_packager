@@ -1,0 +1,112 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+
+
+language.swedish=Swedish
+language.swedish_welcome=Välkommen till installationen
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=OK
+text_next=Nästa >
+text_install=Installera
+text_finish=Finish
+text_back=< Tillbaks
+text_yes=Ja
+text_no=Nej
+text_about=Om
+text_calibrating=Kalibrerings Verktyg
+text_quit=Avsluta Installation
+text_quit_msg=Är du säker på att du vill avsluta installationen
+
+### Changelog Page
+changelog.title=Ändringar
+
+### ROM Selection
+romtype.title=Välj ROM att installera
+romtype.desc=Välj bas ROM för installationen
+romtype.install_cm=CM10
+romtype.install_cm_desc=Installera CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Installera Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Installera AOKP
+romtype.exit=Avsluta
+romtype.exit_desc=Avsluta installationen
+
+### Installation Type
+installtype.title=Installera
+installtype.desc=Välj installations metod
+installtype.default=Standard
+installtype.default_desc=Standard Installation
+installtype.minimal=Minimal
+installtype.minimal_desc=Minimal ROM installation
+installtype.custom=Anpassad
+installtype.custom_desc=Anpassa installerade applikationer
+
+### Kernel Selection
+kernel.title=Kernel
+kernel.desc=Välj kernel att installera
+kernel.default=Standard
+kernel.default_desc=Standard Kernel
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl Kernel
+kernel.mac=MAC
+kernel.mac_desc=MAC Kernel
+kernel.anryl=Coolexe
+kernel.anryl_desc=CoolExe Kernel
+
+### Customize Page
+custom.title=Anpassa
+custom.desc=Välj appar att installera
+
+### Customization Options
+groups.default_apps=Standard Applikationer
+groups.extra_apps=Extra Applikationer
+
+### App Names and Descriptions
+default_apps.apollo=Apollo Musik Spelare
+default_apps.browser=Standard CyanogenMod Webbläsare
+default_apps.email=Standard E-Mail Klient
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Redo för installation
+ready.text=Klicka "Installera Nu" för att påbörja installationen
+
+### Install Page
+install.title=Installerar
+install.text=Vänta
+install.done=Installationen har slutförts
+
+### Finished Page
+finish.title=Installering slutförd
+finish.text=Installationen har slutförts.
+finish.status=Installerings Status
+finish.reboot=Starta om enheten nu
+
+### Special Strings - These are appended onto the ROM name
+install.installing=blir nu installerat...
+
+
+
+

@@ -1,0 +1,355 @@
+### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+### FILE INFO:
+#
+# AROMA Installer 2.00 - AROMA Installer Test Script Configuration
+#       (c) 2011-2012 by Ahmad Amarullah
+#           amarullz - xda-developers
+#           http://www.amarullz.com/
+#
+#       Binary Version  : 2.50
+#       Binary Codename : Edelweis
+#
+### INFO:
+#
+# * AROMA Resource Dir  = META-INF/com/google/android/aroma
+#
+# * AROMA Temporary Dir = /tmp/aroma/
+#
+# * About Icon          = @alert - show <AROMA Resource Dir>/icons/alert.png
+#                         or if theme used it will find <themedir>/icon.alert.png
+#                         you can still access it via "icons/alert"
+#
+# * dp                  = Device Pixelate. WVGA/QHD = 3, HVGA = 2.
+#                         dp calculated with = round(min(width,height) / 160)
+#
+###
+
+##
+# Fix Colorspace Issue
+#
+# For device which have a problem with color ( not display the correct color )
+# try to set "force_colorspace" with ini_set. It may caused by wrong framebuffer
+# information that passed by kernel into framebuffer device.
+#
+# You can use one of following values:
+#   "rgba", "abgr", "argb", "bgra"
+#
+# NOTE: It must be in top most script, or you will got the color flicker
+#
+# ini_set("force_colorspace","rgba");
+#
+
+##
+# Forcing Device Pixelate Size
+#  defaut: floor( min( width, height ) / 160 )
+#
+# Usefull for tablet device, if interface was too big, you can
+# force dp size for smaller UI size.
+#
+#-------- Uncomment one of this to use custom dp size:
+#
+# ini_set("dp","1"); #-- LDPI ( 240x320 / QVGA )
+# ini_set("dp","2"); #-- MDPI ( 340x480 / HVGA )
+# ini_set("dp","3"); #-- HDPI ( 480x800 / WVGA )
+ini_set("dp","4");
+# ini_set("dp","5");
+#
+
+ini_set("customkeycode_up",     "115");
+ini_set("customkeycode_down",   "114");
+ini_set("customkeycode_select", "116");
+ini_set("customkeycode_menu",   "139");
+ini_set("customkeycode_back",   "158");
+
+##
+# Initializing Rom Information
+#
+ini_set("rom_name",             "Disarmed Toaster");
+ini_set("rom_version",          "0.3");
+ini_set("rom_author",           "agrabren");
+ini_set("rom_device",           "HTC EVO 3D");
+ini_set("rom_date",              "Nov 9th, 2012");
+
+
+##
+# Show Simple Splash
+#
+splash(2000, "disarmed");
+
+# Set the theme to ICS
+theme("ics");
+
+#
+# Set Small Font to Support all fonts
+#
+fontresload( "0", "ttf/Roboto-Regular.ttf;ttf/DroidSansArabic.ttf;ttf/DroidSansFallback.ttf;", "12" ); #-- Use sets of font (Font Family)
+fontresload( "1", "ttf/Roboto-Regular.ttf;ttf/DroidSansArabic.ttf;ttf/DroidSansFallback.ttf;", "18" ); #-- Use sets of font (Font Family)
+
+###################################################################################################################
+
+loadlang("langs/select.lang");
+selectbox("Select Language", "Please select installer language:", "@default", "lang.prop",
+    "<~language.english>",      "<~language.english_welcome>",                                 1,      #-- selected.0 = 1
+    "<~language.arabic>",       "<~language.arabic_welcome>",                                  0,      #-- selected.0 = 2
+    "<~language.breton>",       "<~language.breton_welcome>",                                  0,      #-- selected.0 = 3
+    "<~language.chinese>",      "<~language.chinese_welcome>",                                 0,      #-- selected.0 = 4
+    "<~language.croatian>",     "<~language.croatian_welcome>",                                0,      #-- selected.0 = 5
+    "<~language.czech>",        "<~language.czech_welcome>",                                   0,      #-- selected.0 = 6
+    "<~language.dutch>",        "<~language.dutch_welcome>",                                   0,      #-- selected.0 = 7
+    "<~language.french>",       "<~language.french_welcome>",                                  0,      #-- selected.0 = 8
+    "<~language.german>",       "<~language.german_welcome>",                                  0,      #-- selected.0 = 9
+    "<~language.hungarian>",    "<~language.hungarian_welcome>",                               0,      #-- selected.0 = 10
+    "<~language.italian>",      "<~language.italian_welcome>",                                 0,      #-- selected.0 = 11
+    "<~language.norwegian>",    "<~language.norwegian_welcome>",                               0,      #-- selected.0 = 12
+    "<~language.persian>",      "<~language.persian_welcome>",                                 0,      #-- selected.0 = 13
+    "<~language.polish>",       "<~language.polish_welcome>",                                  0,      #-- selected.0 = 14
+    "<~language.portuguese>",   "<~language.portuguese_welcome>",                              0,      #-- selected.0 = 15
+    "<~language.romanian>",     "<~language.romanian_welcome>",                                0,      #-- selected.0 = 16
+    "<~language.russian>",      "<~language.russian_welcome>",                                 0,      #-- selected.0 = 17
+    "<~language.serbian>",      "<~language.serbian_welcome>",                                 0,      #-- selected.0 = 18
+    "<~language.slovak>",       "<~language.slovak_welcome>",                                  0,      #-- selected.0 = 19
+    "<~language.slovenian>",    "<~language.slovenian_welcome>",                               0,      #-- selected.0 = 20
+    "<~language.spanish>",      "<~language.spanish_welcome>",                                 0,      #-- selected.0 = 21
+    "<~language.swedish>",      "<~language.swedish_welcome>",                                 0,      #-- selected.0 = 22
+    "<~language.turkish>",      "<~language.turkish_welcome>",                                 0       #-- selected.0 = 23
+    );
+
+if prop("lang.prop","selected.0")=="1" then
+    loadlang("langs/en.lang");
+endif;
+if prop("lang.prop","selected.0")=="2" then
+    loadlang("langs/ar.lang");
+endif;
+if prop("lang.prop","selected.0")=="3" then
+    loadlang("langs/br.lang");
+endif;
+if prop("lang.prop","selected.0")=="4" then
+    loadlang("langs/zh.lang");
+endif;
+if prop("lang.prop","selected.0")=="5" then
+    loadlang("langs/cr.lang");
+endif;
+if prop("lang.prop","selected.0")=="6" then
+    loadlang("langs/cs.lang");
+endif;
+if prop("lang.prop","selected.0")=="7" then
+    loadlang("langs/nl.lang");
+endif;
+if prop("lang.prop","selected.0")=="8" then
+    loadlang("langs/fr.lang");
+endif;
+if prop("lang.prop","selected.0")=="9" then
+    loadlang("langs/de.lang");
+endif;
+if prop("lang.prop","selected.0")=="10" then
+    loadlang("langs/hu.lang");
+endif;
+if prop("lang.prop","selected.0")=="11" then
+    loadlang("langs/it.lang");
+endif;
+if prop("lang.prop","selected.0")=="12" then
+    loadlang("langs/no.lang");
+endif;
+if prop("lang.prop","selected.0")=="13" then
+    loadlang("langs/fa.lang");
+endif;
+if prop("lang.prop","selected.0")=="14" then
+    loadlang("langs/pl.lang");
+endif;
+if prop("lang.prop","selected.0")=="15" then
+    loadlang("langs/pt.lang");
+endif;
+if prop("lang.prop","selected.0")=="16" then
+    loadlang("langs/ro.lang");
+endif;
+if prop("lang.prop","selected.0")=="17" then
+    loadlang("langs/ru.lang");
+endif;
+if prop("lang.prop","selected.0")=="18" then
+    loadlang("langs/sr.lang");
+endif;
+if prop("lang.prop","selected.0")=="19" then
+    loadlang("langs/sk.lang");
+endif;
+if prop("lang.prop","selected.0")=="20" then
+    loadlang("langs/sl.lang");
+endif;
+if prop("lang.prop","selected.0")=="21" then
+    loadlang("langs/es.lang");
+endif;
+if prop("lang.prop","selected.0")=="22" then
+    loadlang("langs/sv.lang");
+endif;
+if prop("lang.prop","selected.0")=="23" then
+    loadlang("langs/tr.lang");
+endif;
+
+###################################################################################################################
+
+textbox("<~changelog.title>", "", "@update", resread("langs/changelog.en.lang"));
+
+###################################################################################################################
+
+menubox("<~romtype.title>", "<~romtype.desc>", "@install", "rom.prop",
+	"<~romtype.install_cm>",  "<~romtype.install_cm_desc>",          "@cm",      #-- selected = 1
+	"<~romtype.install_pa>",  "<~romtype.install_pa_desc>",           "@pa",       #-- selected = 2
+	"<~romtype.install_aokp>",  "<~romtype.install_aokp_desc>",           "@aokp",       #-- selected = 3
+	"<~romtype.exit>",  "<~romtype.exit_desc>",           "@exit"       #-- selected = 4
+	);
+
+if prop("rom.prop","selected") == "4" then
+	exit("");
+endif;
+
+###################################################################################################################
+
+menubox("<~installtype.title>", "<~installtype.desc>", "@install", "installtype.prop",
+	"<~installtype.default>",     "<~installtype.default_desc>",          "@install",      #-- selected = 1
+	"<~installtype.minimal>",    "<~installtype.minimal_desc>",          "@apps",      #-- selected = 2
+	"<~installtype.custom>",    "<~installtype.custom_desc>",          "@customize"      #-- selected = 3
+	);
+
+###################################################################################################################
+
+if (prop("installtype.prop","selected")=="1") then
+	writetmpfile("pdroid.prop", "selected=1");
+	writetmpfile("kernel.prop", "selected=1");
+	writetmpfile("customize.prop", 
+		"item.1.1=1\n"+
+		"item.1.2=1\n"+
+		"item.1.3=1\n"+
+		"item.1.4=1\n"+
+		"item.1.5=1\n"+
+		"item.1.6=1\n"+
+		"item.1.7=1\n"+
+		"item.1.8=1\n"+
+		"item.1.9=1\n"+
+		"item.1.10=1\n"+
+		"item.1.11=1\n"+
+		"item.1.12=1\n"+
+		"item.1.13=1\n"+
+		"item.1.14=1\n"+
+		"item.2.1=1\n"+
+		"item.2.2=1\n"+
+		"item.2.3=1\n"+
+		"item.2.4=1\n");
+endif;
+
+if (prop("installtype.prop","selected")=="2") then
+	writetmpfile("pdroid.prop", "selected=1");
+	writetmpfile("kernel.prop", "selected=1");
+	writetmpfile("customize.prop", 
+		"item.1.1=0\n"+
+		"item.1.2=0\n"+
+		"item.1.3=0\n"+
+		"item.1.4=0\n"+
+		"item.1.5=0\n"+
+		"item.1.6=0\n"+
+		"item.1.7=0\n"+
+		"item.1.8=0\n"+
+		"item.1.9=0\n"+
+		"item.1.10=0\n"+
+		"item.1.11=0\n"+
+		"item.1.12=0\n"+
+		"item.1.13=0\n"+
+		"item.1.14=0\n"+
+		"item.2.1=0\n"+
+		"item.2.2=0\n"+
+		"item.2.3=0\n"+
+		"item.2.4=0\n");
+endif;
+
+if (prop("installtype.prop","selected")=="3") then
+    menubox("<~pdroid.title>", "<~pdroid.desc>", "@install", "pdroid.prop", 
+        "<~text_no>",  "", "@no", 
+        "<~text_yes>", "", "@pdroid"
+        );
+
+    if (sysprop("ro.product.device") == "shooter") then
+        menubox("<~kernel.title>", "<~kernel.desc>", "@install", "kernel.prop",
+            "<~kernel.default>",    "<~kernel.default_desc>",       "@install"     #-- selected = 1
+#            "<~kernel.coolexe>",    "<~kernel.coolexe_desc>",       "@install",     #-- selected = 2
+#            "<~kernel.mac>",        "<~kernel.mac_desc>",           "@install"     #-- selected = 3
+            );
+    else
+        menubox("<~kernel.title>", "<~kernel.desc>", "@install", "kernel.prop",
+            "<~kernel.default>",    "<~kernel.default_desc>",       "@install"     #-- selected = 1
+#            "<~kernel.coolexe>",    "<~kernel.coolexe_desc>",       "@install",     #-- selected = 2
+#            "<~kernel.anryl>",      "<~kernel.anryl_desc>",         "@install"      #-- selected = 3
+            );
+    endif;
+
+	checkbox("<~custom.title>", "<~custom.desc>", "@personalize", "customize.prop",
+		"<~groups.default_apps>",               "", 2,  #-- Group 1. key = "item.1.x"
+			"<~default_apps.apollo>",           "", 1,
+			"<~default_apps.browser>",          "", 1,
+			"<~default_apps.calculator>",       "", 1,
+			"<~default_apps.calendar>",         "", 1,
+			"<~default_apps.email>",            "", 1,
+			"<~default_apps.exchange>",         "", 1,
+			"<~default_apps.gallery>",          "", 1,
+			"<~default_apps.quicksearchbox>",   "", 1,
+            "<~default_apps.soundrecorder>",    "", 1,
+			"<~default_apps.spareparts>",       "", 1,
+			"<~default_apps.superuser>",        "", 1,
+			"<~default_apps.torch>",            "", 1,
+			"<~default_apps.videoeditor>",      "", 1,
+		"<~groups.extra_apps>",                 "", 2,  #-- Group 2. key = "item.2.x"
+			"<~extra_apps.goomanager>",         "", 1,
+			"<~extra_apps.term>",               "", 1,
+			"<~extra_apps.titanium>",           "", 1,
+			"<~extra_apps.totalcommander>",     "", 1
+		);
+
+endif;
+
+###################################################################################################################
+
+ini_set("text_next", "<~text_install>");
+viewbox("<~ready.title>", "<~ready.text>", "@install");
+ini_set("text_next", "<~text_next>");
+
+###################################################################################################################
+
+setvar("retstatus", 
+	install("<~install.title>", 
+		"<b>"+ini_get("rom_name")+"</b> <~install.installing>\n\n"+"<~install.text>", 
+		"@install", 
+		"<~install.done>"
+		)
+	);
+
+###################################################################################################################
+
+ini_set("text_next", "<~text_finish>");
+checkviewbox("<~finish.title>", 
+	"<~finish.text>\n\n"+"<~finish.status>: "+getvar("retstatus")+"\n\n", 
+	"@welcome",
+	"<~finish.reboot>",
+	"0",
+	"reboot_it"
+);
+
+if
+  getvar("reboot_it")=="1"
+then
+  reboot("onfinish");
+endif;
+

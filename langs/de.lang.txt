@@ -1,0 +1,109 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# Translated by SecUpwN and testman86
+
+### LANGUAGE STRING RESOURCE FILE
+
+#   Language  : German
+
+language.german=Deutsch
+language.german_welcome=Herzlich willkommen beim Installationsprogramm!
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=OK
+text_next=Weiter >
+text_install=Jetzt installieren
+text_finish=Fertig
+text_back=< Zurück
+text_yes=Ja
+text_no=Nein
+text_about=Über
+text_calibrating=Kalibrierungs-Tools
+text_quit=Installation beenden
+text_quit_msg=Bist Du sicher, dass Du die Installation abbrechen willst?
+
+### Changelog Page
+changelog.title=Changelog
+
+### ROM Selection
+romtype.title=Wähle das zu installierende ROM aus
+romtype.desc=Wähle die ROM-Version welche installiert werden soll
+romtype.install_cm=CM10
+romtype.install_cm_desc=Installiere CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Installiere Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Installiere AOKP
+romtype.exit=Beenden
+romtype.exit_desc=Beende das Installationsprogramm
+
+### Installation Type
+installtype.title=Installation
+installtype.desc=Bitte wähle eine Installationsmethode aus
+installtype.default=Standard/Default
+installtype.default_desc=Standard/Default Installation
+installtype.minimal=Minimal
+installtype.minimal_desc=Minimale ROM Installation
+installtype.custom=Custom
+installtype.custom_desc=Anpassung der zu installierenden Anwendungen
+
+### Kernel Selection
+kernel.title=Kernel
+kernel.desc=Wähle den zu installierenden Kernel
+kernel.default=Standard/Default
+kernel.default_desc=Vanilla Kernel
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl Kernel
+kernel.mac=MAC
+kernel.mac_desc=MAC Kernel
+kernel.anryl=Coolexe
+kernel.anryl_desc=CoolExe Kernel
+
+### Customize Page
+custom.title=Anpassung
+custom.desc=Wähle die zu installierenden Anwendungen
+
+### Customization Options
+groups.default_apps=Standard/Default Anwendungen
+groups.extra_apps=Zusätzliche Anwendungen
+
+### App Names and Descriptions
+default_apps.apollo=Apollo Music Player
+default_apps.browser=Standard/Default CyanogenMod Browser
+default_apps.email=Standard/Default E-Mail Client
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Fertig zur Installation
+ready.text=Drücke 'Jetzt installieren' um die Installation zu starten
+
+### Install Page
+install.title=Installation läuft...
+install.text=Bitte warten.
+install.done=Installation erfolgreich!
+
+### Finished Page
+finish.title=Installation abgeschlossen.
+finish.text=Installation erfolgreich abgeschlossen.
+finish.status=Status der Installation
+finish.reboot=Gerät neu starten
+
+### Special Strings - These are appended onto the ROM name
+install.installing=wird gerade installiert...

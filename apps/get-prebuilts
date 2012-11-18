@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Get Goo Manager
+curl -L -o ./GooManager.apk -O -L https://github.com/solarnz/GooManager_prebuilt/blob/master/GooManager.apk?raw=true
+
+# Get Titanium Backup
+curl -L -o ./TitaniumBackup.apk -O -L http://matrixrewriter.com/android/files/TitaniumBackup_latest.apk
+

@@ -1,0 +1,109 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : Slovenian
+
+language.slovenian=Slovenian
+language.slovenian_welcome=Dobrodošli v namestitveni program
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=Vredu
+text_next=Naprej >
+text_install=Namestite zdaj
+text_finish=Končajte
+text_back=< Nazaj
+text_yes=Da
+text_no=Ne
+text_about=O programu
+text_calibrating=Orodja za nastavljanje
+text_quit=Prekinite z namestitvijo
+text_quit_msg=Ali ste prepričani, da želite prekiniti z namestitvenim programom?
+
+### Changelog Page
+changelog.title=Novost posodobitve
+
+### ROM Selection
+romtype.title=Izberite namestitveni ROM
+romtype.desc=Izberite ROM, ki ga želite namestiti
+romtype.install_cm=CM10
+romtype.install_cm_desc=Namesti CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Namesti Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Namesti AOKP
+romtype.exit=Izhod
+romtype.exit_desc=Zapusti namestitveni program
+
+### Installation Type
+installtype.title=Namestite
+installtype.desc=Prosim izberite način namestitve
+installtype.default=Privzeta
+installtype.default_desc=Privzeta namestitev
+installtype.minimal=Osnovna
+installtype.minimal_desc=Osnovna namestitev
+installtype.custom=Po meri
+installtype.custom_desc=Namestitev po meri
+
+### Kernel Selection
+kernel.title=Kernel
+kernel.desc=Izberite kernel, ki ga želite namestiti
+kernel.default=Privzeti
+kernel.default_desc=Vanilla Kernel
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl Kernel
+kernel.mac=MAC
+kernel.mac_desc=MAC Kernel
+kernel.coolexe=Coolexe
+kernel.coolexe_desc=CoolExe Kernel
+
+### Customize Page
+custom.title=Prilagodite namestitev
+custom.desc=Izberite programe, ki jih želite namestiti
+
+### Customization Options
+groups.default_apps=Privzeti programi
+groups.extra_apps=Dodatni programi
+
+### App Names and Descriptions
+default_apps.apollo=Apollo glasbeni predvajalnik
+default_apps.browser=Privzeti CyanogenMod brskalnik
+default_apps.email=Privzeti E-Mail odjemalec
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Pripravljen za namestitev
+ready.text=Izberite 'Namestite zdaj' za začetek namestitve
+
+### Install Page
+install.title=Nameščanje
+install.text=Prosim počakajte
+install.done=Namestitev je končana
+
+### Finished Page
+finish.title=Namestitev končana
+finish.text=Namestitev je končana.
+finish.status=Pregled namestitve
+finish.reboot=Ponovni zagon zdaj
+
+### Special Strings - These are appended onto the ROM name
+install.installing=je sedaj nameščen...
+

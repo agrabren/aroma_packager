@@ -1,0 +1,109 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : Brezhonneg
+
+language.breton=Brezhonneg
+language.breton_welcome=Degemer mad en em staliñ
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=OK
+text_next=War lerc'h >
+text_install=Enstal bremañ
+text_finish=Echuiñ
+text_back=< En dro
+text_yes=Ya
+text_no=Nan
+text_about=a -zivoud
+text_calibrating=Reizhoù gobariañ 
+text_quit=Kuitaad enstal
+text_quit_msg=Petra'ri, kuitaad an Enstal?
+
+### Changelog Page
+changelog.title=Listennad chañchamant
+
+### ROM Selection
+romtype.title=Dibabiñ ROM da enstal
+romtype.desc=Dibabiñ bazenn ROM da enstal
+romtype.install_cm=CM10
+romtype.install_cm_desc=Enstaliñ CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Enstaliñ Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Enstaliñ AOKP
+romtype.exit=Kuitaad
+romtype.exit_desc=Kuitaad enstal
+
+### Installation Type
+installtype.title=Enstalliñ
+installtype.desc=Marplij divizout feson enstaliñ.
+installtype.default=a-fell
+installtype.default_desc=A-fell instal
+installtype.minimal=Bihanañ
+installtype.minimal_desc=Bihanañ Rom Enstal
+installtype.custom=Personelañ
+installtype.custom_desc=Personelañ aprokioù a vo enstaliñ
+
+### Kernel Selection
+kernel.title=Kernel
+kernel.desc=Divizout peseurt kernel a vo enstaliñ
+kernel.default=A-fell
+kernel.default_desc=Vanilla Kernel
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl Kernel
+kernel.mac=MAC
+kernel.mac_desc=MAC Kernel
+kernel.coolexe=Coolexe
+kernel.coolexe_desc=CoolExe Kernel
+
+### Customize Page
+custom.title=Personelañ
+custom.desc=Diviz peseurt aprokioù vo enstaliñ
+
+### Customization Options
+groups.default_apps=Aprokioù a-fell
+groups.extra_apps=Dreist aprokioù 
+
+### App Names and Descriptions
+default_apps.apollo=Apollo lenner music
+default_apps.browser=A-fell CyanogenMod merdead
+default_apps.email=A-fell amailh kliant
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Prest da enstaliñ
+ready.text=Harp 'Enstal bremañ' evit krog an enstal
+
+### Install Page
+install.title=Enstal en dro
+install.text=Gortoz mar-plij
+install.done=Enstal'zo echuet
+
+### Finished Page
+finish.title=Enstal 'zo echuet
+finish.text=An enstalañ a zo echuet.
+finish.status=Enstal statud
+finish.reboot=Radlañs ar felgomz bremañ
+
+### Special Strings - These are appended onto the ROM name
+install.installing=a zo bremañ grog enstal...
+

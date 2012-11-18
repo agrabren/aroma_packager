@@ -1,0 +1,109 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : Dutch
+
+language.dutch=Nederlands
+language.dutch_welcome=Welkom bij het installatieprogramma
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=OK
+text_next=Volgende >
+text_install=Nu Installeren
+text_finish=Gereed
+text_back=< Terug
+text_yes=Ja
+text_no=Nee
+text_about=Over
+text_calibrating=Calibratie onderdelen
+text_quit=Beëindig installatie
+text_quit_msg=Weet je zeker dat je de installatie wilt beëindigen?
+
+### Changelog Page
+changelog.title=Changelog
+
+### ROM Selection
+romtype.title=Selecteer de gewenste ROM
+romtype.desc=Selecteer de ROM Base voor installatie
+romtype.install_cm=CM10
+romtype.install_cm_desc=Installeer CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Installeer Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Installeer AOKP
+romtype.exit=Sluiten
+romtype.exit_desc=Sluit Installatie
+
+### Installation Type
+installtype.title=Installatie
+installtype.desc=Kies de installatiemethode
+installtype.default=Standaard
+installtype.default_desc=Standaard Installatie
+installtype.minimal=Minimaal
+installtype.minimal_desc=Minimale ROM installatie
+installtype.custom=Aangepast
+installtype.custom_desc=Geïnstalleerde applicaties aanpassen
+
+### Kernel Selection
+kernel.title=Kernel
+kernel.desc=Selecteer welke Kernel u wilt installeren
+kernel.default=Standaard
+kernel.default_desc=Vanilla Kernel
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl Kernel
+kernel.mac=MAC
+kernel.mac_desc=MAC Kernel
+kernel.coolexe=Coolexe
+kernel.coolexe_desc=CoolExe Kernel
+
+### Customize Page
+custom.title=Aanpassen
+custom.desc=Selecteer welke applicaties u wilt installeren
+
+### Customization Options
+groups.default_apps=Standaard applicaties
+groups.extra_apps=Extra applicaties
+
+### App Names and Descriptions
+default_apps.apollo=Apollo Music Player
+default_apps.browser=Standaard CyanogenMod Browser
+default_apps.email=Standaard E-Mail Client
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Gereed voor Installatie
+ready.text=Druk op "Nu Installeren" om de installatie te starten
+
+### Install Page
+install.title=Aan het installeren
+install.text=Een moment geduld
+install.done=Installatie voltooid
+
+### Finished Page
+finish.title=Installatie voltooid
+finish.text=Installatie is voltooid.
+finish.status=Installatie Status
+finish.reboot=Herstart het toestel
+
+### Special Strings - These are appended onto the ROM name
+install.installing=Wordt nu geinstalleerd...
+

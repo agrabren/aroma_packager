@@ -1,0 +1,20 @@
+<b><#selectbg_g>Disarmed Toaster 0.2.9 - ALPHA BUILD</#></b>
+This build is an ALPHA candidate with known issues and untested features
+Use of this ROM is <b>as your own risk</b>.
+
+New Features in 0.2:
+<*>Latest CM10, PA, and AOKP Codebases</*>
+<*>Camera Support</*>
+<*>Graphics Acceleration</*>
+<*>PDroid Privacy Protection</*>
+<*>Vanilla Kernels now vanilla</*>
+
+Known Issues:
+<*>AOKP very unstable</*>
+<*>Hardware Encoders/Decoders not functioning properly</*>
+<*>Overlay Graphics Glitches</*>
+<*>Intermittent Data loss</*>
+<*>Wifi Tethering fails</*>
+<*>No 3D Support</*>
+<*>No FM Radio</*>
+

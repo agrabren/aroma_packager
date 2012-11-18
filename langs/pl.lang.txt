@@ -1,0 +1,109 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : Polish
+
+language.polish=Polski
+language.polish_welcome=Witamy w instalatorze
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=OK
+text_next=Dalej >
+text_install=Instaluj teraz
+text_finish=Zakończ
+text_back=< Cofnij
+text_yes=Tak
+text_no=Nie
+text_about=O ROMie...
+text_calibrating=Narzędzia kalibracyjne
+text_quit=Przerwij instalację
+text_quit_msg=Czy jesteś pewien, że chcesz opuścić instlator?
+
+### Changelog Page
+changelog.title=Lista zmian
+
+### ROM Selection
+romtype.title=Wybierz ROM do instalacji
+romtype.desc=Wybierz system bazowy do instalacji
+romtype.install_cm=CM10
+romtype.install_cm_desc=Zainstaluj CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Zainstaluj Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Zainstaluj AOKP
+romtype.exit=Wyjdź
+romtype.exit_desc=Opuść instalator
+
+### Installation Type
+installtype.title=Instalacja
+installtype.desc=Wybierz rodzaj instalacji
+installtype.default=Domyślna
+installtype.default_desc=Instalacja domyślna
+installtype.minimal=Minimalna
+installtype.minimal_desc=Instalacja pakietu minimalnego
+installtype.custom=Spersonalizowana
+installtype.custom_desc=Wybierz jakie aplikacje zainstalować
+
+### Kernel Selection
+kernel.title=Jądro systemu
+kernel.desc=Wybierz jakie jądro systemu zainstalować
+kernel.default=Domyślne
+kernel.default_desc=Jądro domyślne
+kernel.anryl=Anryl
+kernel.anryl_desc=Jądro Anryl
+kernel.mac=MAC
+kernel.mac_desc=Jądro MAC
+kernel.coolexe=Coolexe
+kernel.coolexe_desc=Jądro CoolExe 
+
+### Customize Page
+custom.title=Dostosuj
+custom.desc=Wybierz jakie aplikacje zainstalować
+
+### Customization Options
+groups.default_apps=Aplikacje domyślne
+groups.extra_apps=Aplikacje dodatkowe
+
+### App Names and Descriptions
+default_apps.apollo=Odtwarzacz muzyki Apollo
+default_apps.browser=Domyślna przeglądarka CyanogenMod
+default_apps.email=Domyślny klient poczty
+extra_apps.titanium=Titanium Backup
+
+### Ready Page
+ready.title=Instalacja gotowa
+ready.text=Naciśnij 'Instaluj teraz' aby rozpocząć instalację
+
+### Install Page
+install.title=Instalacja w toku
+install.text=Proszę czekać
+install.done=Instalacja zakończona
+
+### Finished Page
+finish.title=Instalacja zakończona
+finish.text=Instalacja zakończyła się
+finish.status=Status instalacji
+finish.reboot=Uruchom urządzenie ponownie
+
+### Special Strings - These are appended onto the ROM name
+install.installing=jest właśnie instalowany...
+

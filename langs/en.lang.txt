@@ -1,0 +1,128 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#   Language  : English
+
+language.english=English
+language.english_welcome=Welcome to Installer
+
+
+### COMMON SYSTEM STRING RESOURCE
+
+text_ok=OK
+text_next=Next >
+text_install=Install Now
+text_finish=Finish
+text_back=< Back
+text_yes=Yes
+text_no=No
+text_about=About
+text_calibrating=Calibrating Tools
+text_quit=Quit Installation
+text_quit_msg=Are you sure to wish to quit the installer?
+
+### Changelog Page
+changelog.title=Changelog
+
+### ROM Selection
+romtype.title=Select ROM to install
+romtype.desc=Select the base ROM to install
+romtype.install_cm=CM10
+romtype.install_cm_desc=Install CyanogenMod 10
+romtype.install_pa=PA
+romtype.install_pa_desc=Install Paranoid Android
+romtype.install_aokp=AOKP
+romtype.install_aokp_desc=Install AOKP
+romtype.exit=Exit
+romtype.exit_desc=Exit installer
+
+### Installation Type
+installtype.title=Install
+installtype.desc=Please choose  your installation method
+installtype.default=Default
+installtype.default_desc=Default Installation
+installtype.minimal=Minimal
+installtype.minimal_desc=Minimal ROM install
+installtype.custom=Custom
+installtype.custom_desc=Customize installed applications
+
+### Kernel Selection
+kernel.title=Kernel
+kernel.desc=Select the kernel to install
+kernel.default=Default
+kernel.default_desc=Vanilla Kernel
+kernel.anryl=Anryl
+kernel.anryl_desc=Anryl Kernel
+kernel.mac=MAC
+kernel.mac_desc=MAC Kernel
+kernel.coolexe=Coolexe
+kernel.coolexe_desc=CoolExe Kernel
+
+### PDroid
+pdroid.title=PDroid Privacy Protection
+pdroid.desc=Do you wish to install PDroid Privacy Protection?
+
+### Customize Page
+custom.title=Customize
+custom.desc=Select the apps to install
+
+### Customization Options
+groups.apps=Default Applications
+groups.extra_apps=Additional Applications
+
+### App Names and Descriptions
+default_apps.apollo=Apollo Music Player
+default_apps.browser=CyanogenMod Browser
+default_apps.calculator=Calculator
+default_apps.calendar=Calendar
+default_apps.dspmanager=DSP Manager
+default_apps.email=E-Mail Client
+default_apps.exchange=Exchange Client
+default_apps.gallery=Photo Gallery
+default_apps.quicksearchbox=Quick Search Box
+default_apps.soundrecorder=Sound Recorder
+default_apps.spareparts=Spare Parts
+default_apps.superuser=Superuser
+default_apps.torch=Torch
+default_apps.videoeditor=Video Editor
+
+extra_apps.goomanager=Goo Manager
+extra_apps.term=Terminal Emulator
+extra_apps.titanium=Titanium Backup
+extra_apps.totalcommander=Total Commander
+
+### Ready Page
+ready.title=Ready to Install
+ready.text=Press 'Install Now' to begin installation
+
+### Install Page
+install.title=Installing
+install.text=Please wait
+install.done=Installation has completed
+
+### Finished Page
+finish.title=Install Complete
+finish.text=The installation has completed.
+finish.status=Install Status
+finish.reboot=Reboot device now
+
+### Special Strings - These are appended onto the ROM name
+install.installing=is now being installed...
+

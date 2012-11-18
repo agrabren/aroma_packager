@@ -1,0 +1,105 @@
+﻿### LICENSE:
+#
+# CM10 portions copyright (C) 2012 Kevin Bruckert
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+### LANGUAGE STRING RESOURCE FILE
+#      语言  : 华语 
+language.chinese=华语 
+language.chinese_welcome=欢迎来到安装程式         
+
+### COMMON SYSTEM STRING RESOURCE  
+text_ok=确定 
+text_next=下一步 > 
+text_install=；立即安装 
+text_finish=完成 
+text_back=< 返回 
+text_yes=是的 
+text_no=不是 
+text_about=关于 
+text_calibrating=校准工具 
+text_quit=退出安装程式 
+text_quit_msg=确认退出安装程式?  
+
+### Changelog Page 
+changelog.title=更新日志  
+
+### ROM Selection 
+romtype.title=选择想要安装的ROM 
+romtype.desc=选择要安装的ROM的种类 
+romtype.install_cm=CM10 
+romtype.install_cm_desc=安装 CyanogenMod 10 
+romtype.install_pa=PA 
+romtype.install_pa_desc=安装 Paranoid Android 
+romtype.install_aokp=AOKP 
+romtype.install_aokp_desc=安装 AOKP 
+romtype.exit=退出 
+romtype.exit_desc=退出安装程式  
+
+### Installation Type 
+installtype.title=安装 
+installtype.desc=请选择安装方法 
+installtype.default=原本 
+installtype.default_desc=原本安装程式 
+installtype.minimal=最小量的 
+installtype.minimal_desc=最小量的ROM 安装 
+installtype.custom=承接定做 
+installtype.custom_desc=定制安装软件  
+
+### Kernel Selection 
+kernel.title=核心 
+kernel.desc=选择要安装的核心 
+kernel.default=原本 
+kernel.default_desc=Vanilla 核心 
+kernel.anryl=Anryl 
+kernel.anryl_desc=Anryl 核心 
+kernel.mac=MAC 
+kernel.mac_desc=MAC 核心 
+kernel.coolexe=Coolexe 
+kernel.coolexe_desc=CoolExe 核心  
+
+### Customize Page 
+custom.title=定制 
+custom.desc=选择要安装的软件  
+
+### Customization Options 
+groups.default_apps=原有软件 
+groups.extra_apps=附加软件  
+
+### App Names and Descriptions 
+default_apps.apollo=Apollo Music Player 
+default_apps.browser=原本 CyanogenMod 浏览器 
+default_apps.email=原本的电子邮件 
+extra_apps.titanium=Titanium Backup  
+
+### Ready Page ready.title=准备安装 
+ready.text=选择 '立即安装' 开始安装程式  
+
+### Install Page 
+install.title=正在安装 
+install.text=请稍等 
+install.done=安装完成  
+
+### Finished Page 
+finish.title=安装完成 
+finish.text=安装程式已完成。 
+finish.status=安装状态 
+finish.reboot=重启系统  
+
+### Special Strings - These are appended onto the ROM name 
+install.installing=现在正在安装...
+
