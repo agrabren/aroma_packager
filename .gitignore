@@ -1,0 +1,6 @@
+# Ignore generated files
+out/*
+zips/*
+kernel_*
+tmp/*
+*.zip
